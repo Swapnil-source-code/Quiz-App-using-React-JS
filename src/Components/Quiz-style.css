@@ -64,6 +64,41 @@
 }
 
 
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 768px) {
+  .quiz {
+    width: 80%;
+    margin: 10px auto 0px;
+  }
+  .quiz h2 {
+    font-size: 17px;
+  }
+  .quiz ul li {  
+    height: 45px;
+    font-size: 16px;
+  }
+}
 
-
+ /* Media Query for Mobile Devices */
+ @media (max-width: 480px) {
+  .quiz {
+    width: 95%;
+    margin: 25px auto 0px;
+    padding: 25px;
+  }
+  .quiz h2 {
+    font-size: 17px;
+  }
+  .quiz ul li {  
+    height: 40px;
+    font-size: 16px;
+    margin-bottom: 17px;
+  }
+  .quiz button {
+    margin: 1px auto 0px;
+  }
+  .quiz .index {
+    font-size: 17.5px;
+  }
+}
 
